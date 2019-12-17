@@ -49,14 +49,16 @@ If it does require super user privileges then run it with the following,
 `*/2 * * * * python3 /home/pi/mshop/mshop/fileio/fileio.py`  
   
 3) Understanding the command.  
-*/2 * * * * - 
-This is the crontab specifier, for this particular cron job, it will execute the specified script once every 2 minutes. Edit this as you see fit. Here is a basic outline of the allowed values,  
-**Field    Description   Allowed Value**   
+*/2 * * * * - This is the crontab specifier, for this particular cron job, it will execute the specified script once every 2 minutes. Edit this as you see fit. Here is a basic outline of the allowed values,  
+**Field,    Description,   Value**   
 MIN      Minute field    0 to 59  
 HOUR     Hour field      0 to 23  
 DOM      Day of Month    1-31  
 MON      Month field     1-12  
 DOW      Day Of Week     0-6  
 CMD      Command         Any command to be executed.  
+**python3** - specifies what command line argument you would use to run your code. This is identical to what you would use on the command line to run/compile/invoke your code.
+Such as `javac, perl, python2, python3, etc`  
+**/home/pi/path/to/your/script.py** - The last part is simply the absolute path to the entry point of your program. Ensure you have the absolute path, as relative pathing will not work.  
 
   
