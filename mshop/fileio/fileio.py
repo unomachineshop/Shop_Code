@@ -33,5 +33,5 @@ def create_datetime_entry(path, data):
 
 
 ### Example Use Case ###
-#create_datetime_file("/home/pi/mshop/mshop/fileio/", "datadatadata", ".py")
+create_datetime_file("/home/pi/mshop/mshop/fileio/", "datadatadata", ".py")
 #create_datetime_entry("/home/pi/mshop/mshop/fileio/entry.txt", "entryentryentry")
