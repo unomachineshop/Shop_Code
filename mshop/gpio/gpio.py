@@ -1,4 +1,3 @@
-### Modify ###
 #########################################################
 # Name: rpi_gpio
 # Desc: Specify which pins you would like to use in the 
@@ -42,4 +41,5 @@ def rpi_gpio():
                 time.sleep(.1)
 
 
-rpi_gpio()
+### Example Use Case ###
+#rpi_gpio()

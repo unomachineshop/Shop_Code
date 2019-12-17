@@ -24,7 +24,7 @@ def create_datetime_file(path, data, ext=".txt"):
 def create_datetime_entry(path, data):
     from datetime import datetime
 
-    dt = datetime.now().strftime("%d-%m-%Y_%H:%M:%S ")
+    dt = datetime.now().strftime("[%d-%m-%Y_%H:%M:%S] ")
     try:
         with open(path, 'a+') as f:
             f.write(dt + data + "\n")
@@ -33,4 +33,5 @@ def create_datetime_entry(path, data):
 
 
 ### Example Use Case ###
-create_datetime_file("./", "datadatadata", ".py")
+#create_datetime_file("/home/pi/mshop/mshop/fileio/", "datadatadata", ".py")
+#create_datetime_entry("/home/pi/mshop/mshop/fileio/entry.txt", "entryentryentry")
