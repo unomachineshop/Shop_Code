@@ -6,8 +6,11 @@
 `@python3 /home/pi/path/to/your/script.py`  
   
 3) Understanding the command  
-@python3 - specifies what command line argument you would use to run your code. This is identical to what you would use on the command line to run/compile/invoke your code.  
+**@** - The @ sign is needed for all commands, it simply acts a delimeter allowing you to add multiple commands, delimited by the @ sign.   
+  
+**python3** - specifies what command line argument you would use to run your code. This is identical to what you would use on the command line to run/compile/invoke your code. 
 Such as `javac, perl, python2, python3, etc`  
-The last part is simply the absolute path to the entry point of your program. Ensure you have the absolute path as relative pathing will not work.  
+  
+**/home/pi/path/to/your/script.py** - The last part is simply the absolute path to the entry point of your program. Ensure you have the absolute path, as relative pathing will not work.  
 
 ### Auto start a program after boot (Non Graphical)
