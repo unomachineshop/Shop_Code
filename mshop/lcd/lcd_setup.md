@@ -1,5 +1,5 @@
 ### Basic Setup for TFT Touchscreen
-All credit for this guide goes to the following website tutorial.
+All credit for this guide goes to the following website tutorial.  
 https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/easy-install-2  
   
 The actual script is saved in this github repository as well, in the very off chance it were to get removed from the adafruit website.  
