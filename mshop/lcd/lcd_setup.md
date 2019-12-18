@@ -1,4 +1,4 @@
-### Basic Setup for TFT Touchscreen
+### Basic Setup for Pi LCD Screen
 All credit for this guide goes to the following website tutorial.  
 https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/easy-install-2  
   
